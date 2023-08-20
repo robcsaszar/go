@@ -1,1 +1,1 @@
-export const appUrl = 'https://nhg.app/go/';
+export const appUrl = "https://go.nhg.app/";
