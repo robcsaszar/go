@@ -1,0 +1,35 @@
+{
+  "name": "go-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix --ext .js,.jsx .",
+    "format": "prettier --write .",
+    "lint-format": "npm run lint-fix && npm run format"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.1.7",
+    "next": "^13.4.10",
+    "next-seo": "^6.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.44.0",
+    "eslint-config-next": "^13.4.9",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.26",
+    "prettier": "2.6.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
